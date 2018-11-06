@@ -57,6 +57,8 @@ class PortainerClient {
 					reject(error);
 				else if(response && response.statusCode === 200)
 					resolve(body);
+				else if(response && response.statusCode === 204)
+					resolve({});
 				else
 					reject(response.statusCode);
 			});

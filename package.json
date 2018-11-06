@@ -1,6 +1,6 @@
 {
   "name": "portainer-api-client",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Node.JS client for interacting with the Portainer HTTP API",
   "license": "MIT",
   "author": {
