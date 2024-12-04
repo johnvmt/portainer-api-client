@@ -1,7 +1,8 @@
 {
   "name": "portainer-api-client",
-  "version": "0.0.2",
-  "description": "Node.JS client for interacting with the Portainer HTTP API",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Node.js client for interacting with the Portainer HTTP API",
   "license": "MIT",
   "author": {
     "name": "John Murphy-Teixidor",
@@ -11,8 +12,5 @@
     "type": "git",
     "url": "https://github.com/johnvmt/portainer-api-client.git"
   },
-  "main": "PortainerClient.js",
-  "dependencies": {
-    "request": "2.88.x"
-  }
+  "main": "src/PortainerClient.js"
 }
